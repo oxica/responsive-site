@@ -635,5 +635,30 @@ img {
   .footer__content{
     grid-template-columns: max-content;
   }
-
 }
+
+@media screen and (min-width:576px){
+  .nav__menu{
+    width: 50%;
+  }
+
+  .home__container,
+  .new__content,
+  .about__container,
+  .visit__content{
+    grid-template-columns: 350px;
+    justify-content: center;
+  }
+
+  .favorite__container{
+    grid-template-columns:repeat(2, 180px);
+    justify-content: center;
+  }
+
+  .footer__content{
+    grid-template-columns: repeat(3, max-content);
+  }
+}
+
+
+
