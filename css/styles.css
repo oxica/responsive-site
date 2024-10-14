@@ -515,6 +515,13 @@ img {
 
 .footer__info{
   font-style: normal;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: color .4s;
+}
+
+.footer__info:hover{
+  color: var(--first-color-alt);
 }
 
 .footer__social{

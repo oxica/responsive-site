@@ -7,7 +7,7 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.7.0/remixicon.css">
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" >
     <title>Bakery website</title>
   </head>
   <body>
@@ -90,7 +90,7 @@
 
         <div class="new__container container grid">
           <div class="new__content grid">
-            <article class="new__card">
+            <div class="new__card">
               <div class="new__data">
                 <h2 class="new__title">Rye Bread</h2>
                 <p class="new__description">
@@ -98,9 +98,9 @@
                 </p>
               </div>
               <img src="./img/new-bread-1.png" alt="bread" class="new__img">
-            </article>
+            </div>
 
-            <article class="new__card">
+            <div class="new__card">
               <div class="new__data">
                 <h2 class="new__title">Whole Grain Bread</h2>
                 <p class="new__description">
@@ -108,9 +108,9 @@
                 </p>
               </div>
               <img src="./img/new-bread-2.png" alt="bread" class="new__img">
-            </article>
+            </div>
 
-            <article class="new__card">
+            <div class="new__card">
               <div class="new__data">
                 <h2 class="new__title">Multigrain Bread</h2>
                 <p class="new__description">
@@ -119,7 +119,7 @@
                 </p>
               </div>
               <img src="./img/new-bread-3.png" alt="bread" class="new__img">
-            </article>
+            </div>
           </div>
           <a href="#" class="new__button button">See More Breads</a>
         </div>
@@ -148,7 +148,7 @@
         <h2 class="section__title">Customer Favorites</h2>
 
         <div class="favorite__container container grid">
-          <artikle class="favorite__card">
+          <div class="favorite__card">
             <img
               src="./img/favorite-bread-1.png"
               alt="bread"
@@ -161,9 +161,9 @@
                 <i class="ri-add-line"></i>
               </button>
             </div>
-          </artikle>
+          </div>
 
-          <artikle class="favorite__card">
+          <div class="favorite__card">
             <img
               src="./img/favorite-bread-2.png"
               alt="bread"
@@ -177,9 +177,9 @@
                 <i class="ri-add-line"></i>
               </button>
             </div>
-          </artikle>
+          </div>
 
-          <artikle class="favorite__card">
+          <div class="favorite__card">
             <img
               src="./img/favorite-bread-3.png"
               alt="bread"
@@ -193,9 +193,9 @@
                 <i class="ri-add-line"></i>
               </button>
             </div>
-          </artikle>
+          </div>
 
-          <artikle class="favorite__card">
+          <div class="favorite__card">
             <img
               src="./img/favorite-bread-4.png"
               alt="bread"
@@ -209,9 +209,9 @@
                 <i class="ri-add-line"></i>
               </button>
             </div>
-          </artikle>
+          </div>
 
-          <artikle class="favorite__card">
+          <div class="favorite__card">
             <img
               src="./img/favorite-bread-5.png"
               alt="bread"
@@ -225,9 +225,9 @@
                 <i class="ri-add-line"></i>
               </button>
             </div>
-          </artikle>
+          </div>
 
-          <artikle class="favorite__card">
+          <div class="favorite__card">
             <img
               src="./img/favorite-bread-6.png"
               alt="bread"
@@ -241,7 +241,7 @@
                 <i class="ri-add-line"></i>
               </button>
             </div>
-          </artikle>
+          </div>
         </div>
       </section>
 
@@ -268,23 +268,27 @@
         <div>
           <a href="#" class="footer__logo">Bakery</a>
           <p class="footer__description">
-            We make the best bread <br />
+            We make the best bread <br>
             in the city.
           </p>
         </div>
 
-        <div class="footer__content grid">
+        <adress class="footer__content grid">
           <div>
             <h3 class="footer__title">Address</h3>
             <ul class="footer__list">
               <li>
-                <addres class="footer__info"
-                  >AV. The Sun #321 <br >
-                  Lima Peru</addres
-                >
+                <a
+                    class="footer__info"
+                    href="https://goo.gl/maps/CdvJLRiEL6Q8Smko8"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    >AV. The Sun #321 <br >
+                    Lima Peru</a
+                  >
               </li>
               <li>
-                <addres class="footer__info">9AM - 11PM</addres>
+                <p class="footer__info">9AM - 11PM</p>
               </li>
             </ul>
           </div>
@@ -293,10 +297,10 @@
             <h3 class="footer__title">Contact Me</h3>
             <ul class="footer__list">
               <li>
-                <addres class="footer__info"> bakery@email.com</addres>
+                <a class="footer__info" href="mailto:bakery@email.com">bakery@email.com</a>
               </li>
               <li>
-                <addres class="footer__info">+00 987 654 321</addres>
+                <a class="footer__info" href="tel:+00987654321">+00 987 654 321</a>
               </li>
             </ul>
           </div>
@@ -315,7 +319,7 @@
               </a>
             </div>
           </div>
-        </div>
+        </adress>
 
         <img src="./img/bread-4.png" alt="bread" class="footer__img-1" >
         <img src="./img/bread-3.png" alt="bread" class="footer__img-2" >
